@@ -1,5 +1,6 @@
-import React from "react";
-import Link from "next/link";
+import React from 'react';
+import Image from 'next/image';
+import Link from 'next/link';
 
 interface Props {
   heading: string;
@@ -13,8 +14,11 @@ const Hero = ({ heading, message }: Props) => {
       <div className="p-5 text-white z-[2] mt-[-10rem]">
         <h2 className="text-5xl font-bold">{heading}</h2>
         <p className="py-5 text-xl">{message}</p>
-        <Link href="/#portfolio" passHref>
-          <button className="px-8 py-2 border">Here</button>
+        <Link
+          href="https://open.spotify.com/show/60sFQiOyol3dXeK6itoXTJ?si=3b5c7d72bda14e1f"
+          passHref
+        >
+          <button className="px-8 py-2 border">Escuchalo Ya</button>
         </Link>
       </div>
     </div>
