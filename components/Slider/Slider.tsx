@@ -36,7 +36,7 @@ const Slider = ({ slides }: Props) => {
               <FaArrowCircleLeft
                 onClick={prevSlide}
                 className="absolute top-[50%] left-[30px] text-white/70 cursor-pointer select-none z-[2]"
-                size={50}
+                size={30}
               />
               {index === current && (
                 <Image
@@ -50,7 +50,7 @@ const Slider = ({ slides }: Props) => {
               <FaArrowCircleRight
                 onClick={nextSlide}
                 className="absolute top-[50%] right-[30px] text-white/70 cursor-pointer select-none z-[2]"
-                size={50}
+                size={30}
               />
             </div>
           );

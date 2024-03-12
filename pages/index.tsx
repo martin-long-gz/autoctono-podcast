@@ -3,9 +3,8 @@ import Head from 'next/head';
 import Hero from '../components/Hero/Hero';
 import Slider from '../components/Slider/Slider';
 import { SliderData } from '../components/Slider/SliderData';
-import Instagram from '../components/InstagramGallery/Instagram';
-import Portfolio from '../components/Portfolio/Portfolio';
 import About from '../components/About/About';
+import Footer from '../components/Footer/Footer';
 
 const Home: NextPage = () => {
   return (
@@ -21,6 +20,7 @@ const Home: NextPage = () => {
       <Hero heading="Autóctono Podcast" message="Conversaciones cara a cara" />
       <About />
       <Slider slides={SliderData} />
+      <Footer />
     </>
   );
 };
