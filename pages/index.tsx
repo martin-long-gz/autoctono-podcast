@@ -11,10 +11,7 @@ const Home: NextPage = () => {
     <>
       <Head>
         <title>Autóctono Podcast</title>
-        <meta
-          name="description"
-          content="Created as template for future work"
-        />
+        <meta name="description" content="Autóctono Podcast" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading="Autóctono Podcast" message="Conversaciones cara a cara" />
